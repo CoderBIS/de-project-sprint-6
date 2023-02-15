@@ -15,3 +15,14 @@ create_group_log = PostgresOperator(task_id='create_group_log',
 Ошибка вот такая: jinja2.exceptions.TemplateNotFound: /data/create_group_log.sql
 
 Не знаю, правильно ли я делал, можно так сделать с PostgresOperator?
+________________________________________________________________________
+
+Пробовал вызвать VerticaOperator так:
+
+from airflow.contrib.operators.vertica_operator import VerticaOperator
+
+и так:
+
+from airflow.providers.vertica.operators.vertica import VerticaOperator
+
+Тренажер не пропускает, пишет, что такого модуля нет.

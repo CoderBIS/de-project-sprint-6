@@ -26,3 +26,10 @@ from airflow.contrib.operators.vertica_operator import VerticaOperator
 from airflow.providers.vertica.operators.vertica import VerticaOperator
 
 Тренажер не пропускает, пишет, что такого модуля нет.
+___________________________________________________________________________
+
+Мария, спасибо большое за разъяснения и полезные советы.
+
+Больше вопросов не осталось.
+
+Хорошего дня!
